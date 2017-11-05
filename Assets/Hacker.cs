@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Hacker : MonoBehaviour
 {
@@ -78,10 +73,10 @@ public class Hacker : MonoBehaviour
 		switch (level)
 		{
 				case 1:
-					_levelPass = Level1Passwords[2];
+					_levelPass = Level1Passwords[Random.Range(0, Level1Passwords.Length)];
 					break;
 				case 2:
-					_levelPass = Level2Passwords[3];
+					_levelPass = Level2Passwords[Random.Range(0, Level2Passwords.Length)];
 					break;
 				default:
 					Debug.LogError("Ooops!");
@@ -94,7 +89,7 @@ public class Hacker : MonoBehaviour
 	{
 		if (input == _levelPass)
 		{
-			Terminal.WriteLine("Welcome to Level " + level);
+			DisplayWinScreen();
 		}
 		else
 		{
@@ -102,7 +97,47 @@ public class Hacker : MonoBehaviour
 			Terminal.WriteLine("Try again or enter 'menu' \nto go to Main Menu");
 		}
 	}
-	
+
+	void DisplayWinScreen()
+	{
+		currentScreen = Screen.Win;
+		Terminal.ClearScreen();
+		ShowLevelReward();
+	}
+
+	void ShowLevelReward()
+	{
+		Terminal.WriteLine("Now for something completely differnt...");
+		switch (level)
+		{
+			case 1:
+				
+				Terminal.WriteLine(@"
+
+     __________________________
+    /                         /|
+   /                         //
+  /                         //
+ /_________________________//
+|_________________________|/
+	| |   /        | |   /  
+	| |  /  	   | |  /  
+	| | /          | | /  
+	|_|/           |_|/  
+");
+				break;
+			case 2:
+				Terminal.WriteLine(@"
+  ********
+ *@@@@@@@@@*
+*@		    @__
+*@__________@__)
+  /_/   \_\
+
+");
+		}
+	}
+
 	// Update is called once per frame
 	void Update () {
 		
