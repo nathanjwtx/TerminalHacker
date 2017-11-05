@@ -14,7 +14,10 @@ public class Hacker : MonoBehaviour
 		MainMenu, Password, Win
 	}
 	private Screen currentScreen;
-	
+	private const string Level1 = "goat";
+	private const string Level2 = "donkey";
+
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -45,6 +48,10 @@ public class Hacker : MonoBehaviour
 		{
 			RunMainMenu(input);	
 		}
+		else if (currentScreen == Screen.Password)
+		{
+			PasswordCheck(input);
+		}
 	}
 
 	private void RunMainMenu(string input)
@@ -53,27 +60,40 @@ public class Hacker : MonoBehaviour
 		{
 			case "1":
 				level = 1;
-				ShowGameLevel(level);
+				StartGame(level);
 				break;
 			case "2":
 				level = 2;
-				ShowGameLevel(level);
+				StartGame(level);
 				break;
-			case "3":
-				level = 3;
-				ShowGameLevel(level);
-				break;
-			default:
-				currentScreen = Screen.MainMenu;
-				ShowMainMenu();
-				break;
+//			case "3":
+//				level = 3;
+//				ShowGameLevel(level);
+//				break;
 		}
 	}
 
-	void ShowGameLevel(int inputLevel)
+	void StartGame(int inputLevel)
 	{
 		currentScreen = Screen.Password;
-		Terminal.WriteLine("You chose level " + inputLevel);
+		Terminal.WriteLine("Enter password " + inputLevel);
+	}
+
+	void PasswordCheck(string input)
+	{
+		if (level == 1 && input == Level1)
+		{
+			Terminal.WriteLine("Welcome to Level 1");
+		}
+		else if (level == 2 && input == Level2)
+		{
+			Terminal.WriteLine("Welcome to Level 2");
+		}
+		else
+		{
+			Terminal.WriteLine("Incorrect password for level " + level);
+			Terminal.WriteLine("Try again or enter 'menu' to go to Main Menu");
+		}
 	}
 	
 	// Update is called once per frame
