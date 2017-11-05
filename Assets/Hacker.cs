@@ -7,15 +7,18 @@ using UnityEngine;
 
 public class Hacker : MonoBehaviour
 {
-//	GameLevel;
+	// Game config data
+	private string[] Level1Passwords = { "table", "blanket", "chair", "window", "pizza"};
+	private string[] Level2Passwords = { "barn", "donkey", "creek", "garage", "snake", "turtle"};
+	private string _levelPass;
+	
+	//	GameLevel;
 	int level;
 	enum Screen
 	{
 		MainMenu, Password, Win
 	}
 	private Screen currentScreen;
-	private const string Level1 = "goat";
-	private const string Level2 = "donkey";
 
 
 	// Use this for initialization
@@ -56,43 +59,47 @@ public class Hacker : MonoBehaviour
 
 	private void RunMainMenu(string input)
 	{
-		switch (input)
+		bool isValidLevel = (input == "1" || input == "2");
+		if (isValidLevel)
 		{
-			case "1":
-				level = 1;
-				StartGame(level);
-				break;
-			case "2":
-				level = 2;
-				StartGame(level);
-				break;
-//			case "3":
-//				level = 3;
-//				ShowGameLevel(level);
-//				break;
+			level = int.Parse(input);
+			StartGame(level);
+		}
+		else
+		{
+			Terminal.WriteLine("Enter a valid level");
 		}
 	}
 
 	void StartGame(int inputLevel)
 	{
 		currentScreen = Screen.Password;
+		Terminal.ClearScreen();
+		switch (level)
+		{
+				case 1:
+					_levelPass = Level1Passwords[2];
+					break;
+				case 2:
+					_levelPass = Level2Passwords[3];
+					break;
+				default:
+					Debug.LogError("Ooops!");
+					break;
+		}
 		Terminal.WriteLine("Enter password " + inputLevel);
 	}
 
 	void PasswordCheck(string input)
 	{
-		if (level == 1 && input == Level1)
+		if (input == _levelPass)
 		{
-			Terminal.WriteLine("Welcome to Level 1");
-		}
-		else if (level == 2 && input == Level2)
-		{
-			Terminal.WriteLine("Welcome to Level 2");
+			Terminal.WriteLine("Welcome to Level " + level);
 		}
 		else
 		{
 			Terminal.WriteLine("Incorrect password for level " + level);
-			Terminal.WriteLine("Try again or enter 'menu' to go to Main Menu");
+			Terminal.WriteLine("Try again or enter 'menu' \nto go to Main Menu");
 		}
 	}
 	

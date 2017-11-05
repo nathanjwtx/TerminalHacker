@@ -1,13 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="472bc98a-1867-4329-b28d-50db7f426258" name="Default" comment="" />
+    <list default="true" id="472bc98a-1867-4329-b28d-50db7f426258" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Hacker.cs" afterPath="$PROJECT_DIR$/Assets/Hacker.cs" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Hacker.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Hacker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1450">
+              <caret line="85" column="54" lean-forward="true" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
+              <folding>
+                <marker date="1509888047655" expanded="false" signature="6:149" ph="..." />
+                <marker date="1509888047655" expanded="true" signature="186:2184" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="435:467" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="547:571" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="593:1045" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1078:1325" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1104:1167" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1212:1244" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1289:1322" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1366:1592" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1386:1589" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1513:1585" ph="/* case &quot;3&quot;: ... */" />
+                <marker date="1509888047655" expanded="true" signature="1625:1720" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1755:2120" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1807:1860" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1914:1967" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="1974:2117" ph="{...}" />
+                <marker date="1509888047655" expanded="true" signature="2175:2182" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Hacker.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,6 +69,7 @@
     <option name="width" value="2418" />
     <option name="height" value="1318" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -93,11 +132,12 @@
       <workItem from="1509798115338" duration="32000" />
       <workItem from="1509798376485" duration="2053000" />
       <workItem from="1509828090658" duration="2603000" />
+      <workItem from="1509882222665" duration="5408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4688000" />
+    <option name="totallyTimeSpent" value="10096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -110,12 +150,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2418" height="1318" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -142,5 +183,89 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Hacker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509888047655" expanded="false" signature="6:149" ph="..." />
+            <marker date="1509888047655" expanded="true" signature="186:2184" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="435:467" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="547:571" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="593:1045" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1078:1325" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1104:1167" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1212:1244" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1289:1322" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1366:1592" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1386:1589" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1513:1585" ph="/* case &quot;3&quot;: ... */" />
+            <marker date="1509888047655" expanded="true" signature="1625:1720" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1755:2120" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1807:1860" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1914:1967" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1974:2117" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="2175:2182" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hacker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509888047655" expanded="false" signature="6:149" ph="..." />
+            <marker date="1509888047655" expanded="true" signature="186:2184" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="435:467" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="547:571" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="593:1045" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1078:1325" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1104:1167" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1212:1244" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1289:1322" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1366:1592" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1386:1589" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1513:1585" ph="/* case &quot;3&quot;: ... */" />
+            <marker date="1509888047655" expanded="true" signature="1625:1720" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1755:2120" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1807:1860" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1914:1967" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1974:2117" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="2175:2182" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hacker1.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Hacker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="85" column="54" lean-forward="true" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
+          <folding>
+            <marker date="1509888047655" expanded="false" signature="6:149" ph="..." />
+            <marker date="1509888047655" expanded="true" signature="186:2184" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="435:467" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="547:571" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="593:1045" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1078:1325" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1104:1167" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1212:1244" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1289:1322" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1366:1592" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1386:1589" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1513:1585" ph="/* case &quot;3&quot;: ... */" />
+            <marker date="1509888047655" expanded="true" signature="1625:1720" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1755:2120" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1807:1860" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1914:1967" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="1974:2117" ph="{...}" />
+            <marker date="1509888047655" expanded="true" signature="2175:2182" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
